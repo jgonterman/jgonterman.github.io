@@ -1,4 +1,4 @@
-ul li {
+#unordered {
 display: block;
 border: 3px dotted magenta;
 width: 150px;
