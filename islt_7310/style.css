@@ -1,4 +1,4 @@
-#heading {color: #7B4BD2;}
+#heading {color: magenta}
 body {
     margin: 40px;
   }
@@ -10,6 +10,9 @@ body {
   .content {
     grid-area: content;
     position: relative;
+    a {
+        color: rgb(8, 32, 240)
+    }
   }
   
   .header {
@@ -23,7 +26,7 @@ body {
   .wrapper {
       display: grid;
       grid-gap: 10px;
-      grid-template-columns: 200px 200px 200px;
+      grid-template-columns: 800px 800px 800px;
       grid-template-areas:
       "header  header  header"
       "sidebar content content"
