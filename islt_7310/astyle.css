@@ -4,9 +4,12 @@
     width: 100%;
   }
   .sidebar {
-display: none;
+    img {
+      display: none;
+    }
   }
-}
+  }
+
 a {
   color: #2d09fa;
 }
