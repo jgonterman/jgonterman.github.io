@@ -1,7 +1,12 @@
-@media only screen and (max-width:600px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
+@media only screen and (max-width: 768px) {
+  .clearfix {
+    flex-flow: column;
+  }
+  .clearfix > div {
+    order: 1;
+  }
+  .clearfix > div:first-child {
+    order: 2;
   }
 }
 a {
