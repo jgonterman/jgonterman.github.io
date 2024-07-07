@@ -20,38 +20,43 @@ Validated:  Jun 28, 2024
                <title>Home Page</title>
 
                 <link rel="stylesheet"
-                href="style.css">
+                href="astyle.css">
 
                 <link rel="stylesheet"
                 href="nav.css">
 </head>
 
-<body>
-<header>
-    <h1 id="heading">Music Theory</h1>
-</header>
-<main>
+<div class="wrapper">
+    <div class="box header">
+        <header>
+            <h1>Music Theory</h1>
+        <nav>
+            <div class="navbar">
+                <a href="https://jgonterman.github.io/islt_7310/index.html">Home</a>
+                <a href="https://jgonterman.github.io/islt_7310/about.html">About</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Learn
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+                </div>    
+                <a href="https://jgonterman.github.io/islt_7310/references.html">Resources</a>
+                <a href="#contact.html">Contact</a>
+        </nav>    
+        </header>
+</div>
+
+<div class="box content">
     <h4>Welcome!</h4>
     <p>My name is Jeremy Gonterman, and I am going to teach you the basics of music theory. Many musicians, rather professional or hobbyists, cannot read music. In fact, some of the most famous musicians of all time cannot, such as Prince, Eric Clapton, Elvis Presley, and Michael Jackson. Music theory does not define the quality of the musician, but it does make it easier to communicate with other musicians. If you follow this step-by-step guide, you will learn the foundations of music theory, and be able to confidently read and write music!</p>
-</main>
-<nav>
-    <ul class="nav">
-        <li><a href="https://jgonterman.github.io/islt_7310/index.html">Home</a></li>
-        <li><a href="https://jgonterman.github.io/islt_7310/about.html">About</a></li>
-        <li><a href="https://jgonterman.github.io/islt_7310/learn.html">Learn</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        <li><a href="https://jgonterman.github.io/islt_7310/references.html">Resources</a></li>
-        <li><a href="#contact.html">Contact</a></li>    
-        </li>    
-    </ul>
-</nav>
-<footer>
+</div>
+
+<div class="box footer">
     Jeremy Gonterman | jkgtct@missouri.edu | ©2024 Jeremy Gonterman
-</footer>
-</body>
+</div>
 
 </html>
