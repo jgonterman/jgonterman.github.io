@@ -8,6 +8,9 @@
       display: none;
     }
   }
+  .content {
+    text-align: left;
+  }
   }
 
 a {
