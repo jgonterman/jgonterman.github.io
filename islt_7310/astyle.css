@@ -3,7 +3,7 @@ a {
 }
 
 body {
-    margin: 40px;
+    margin: .5%;
   }
   
   .sidebar {
@@ -41,8 +41,8 @@ body {
   
   .wrapper {
       display: grid;
-      grid-gap: 10px;
-      grid-template-columns: 800px 800px 800px;
+      grid-gap: 1%;
+      grid-template-columns: 30% 30% 30%;
       grid-template-areas:
       "header  header  header"
       "sidebar content content"
@@ -56,8 +56,8 @@ body {
   
   .box {
     color: #fff;
-    border-radius: 5px;
-    padding: 68px;
+    border-radius: 2%;
+    padding: 4%;
   }
   
   .topleft {
