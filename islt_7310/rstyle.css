@@ -1,37 +1,21 @@
-a {
-  color: #2d09fa;
-}
-
 body {
     margin: 40px;
-  }
-  
-  .sidebar {
-    grid-area: sidebar;
-    img {
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      padding: 5px;
-      width: 400
-    }
   }
   
   .content {
     grid-area: content;
     position: relative;
-    font-size: 150%;
-    p {
-      text-align: center;
+    text-align: center;
+    h4 {
+        font-size: 200%
     }
+    font-size: 120%;
   }
   
   .header {
     grid-area: header;
     h1 {
-      font-size: 300%
-  }
-    h4 {
-      font-size: 225%
+        font-size: 300%
     }
   }
   
@@ -45,7 +29,7 @@ body {
       grid-template-columns: 800px 800px 800px;
       grid-template-areas:
       "header  header  header"
-      "sidebar content content"
+      "content content content"
       "footer  footer  footer";
       background-image: url("https://jgonterman.github.io/islt_7310/Homepage.jpg");
       background-size: cover;
@@ -53,11 +37,10 @@ body {
       background-attachment: fixed;
     }
   
-  
   .box {
     color: #fff;
     border-radius: 5px;
-    padding: 68px;
+    padding: 80px;
   }
   
   .topleft {

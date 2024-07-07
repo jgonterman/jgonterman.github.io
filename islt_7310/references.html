@@ -9,7 +9,7 @@ School/Term:  University of Missouri, Summer 2024
 
 Developed: Jun 13, 2024
 
-Validated:  Jun 28, 2024
+Validated:  Jul 7, 2024
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -19,18 +19,41 @@ Validated:  Jun 28, 2024
                <title>Resources</title>
 
                <link rel="stylesheet"
-               href="style.css">
+               href="rstyle.css">
 
                <link rel="stylesheet"
                href="nav.css">
+
+               
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
-<body>
-    <header>
-        <h1>Resource</h1>
-    </header>
-    <main>
-        <h4>& References</h4>
+<div class="wrapper">
+    <div class="box header">
+        <header>
+            <element class="header"><h1>Resource & References</h1></element>
+        <nav>
+            <div class="navbar">
+                <a href="https://jgonterman.github.io/islt_7310/index.html">Home</a>
+                <a href="https://jgonterman.github.io/islt_7310/about.html">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Learn
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>    
+                <a href="https://jgonterman.github.io/islt_7310/references.html">Resources</a>
+                <a href="#contact.html">Contact</a>
+            </nav> 
+        </header>
+</div>
+
+<div class="box content">
             <br>
             <p id="p1">Barta, Alex. “Grand Staff in Music.” <em>Study.Com</em>, 21 Nov. 2023, <a href="study.com/learn/lesson/grand-music-staff-symbols-notation.html">Study.Com/learn/lesson/grand-music-staff-symbols-notation.html</a>. Accessed 9 June 2024.</p>
              <br>
@@ -46,25 +69,10 @@ Validated:  Jun 28, 2024
             <p>quoteresearch. “Though Music Be a Universal Language, It Is Spoken with All Sorts of Accents.” <em>Quote Investigator</em>, 28 June 2022, <a href="quoteinvestigator.com/2015/06/20/music/">quoteinvestigator.com/2015/06/20/music/</a>. Accessed 9 June 2024.</p>
         </div>
             <br>
-    </main>
-<nav>
-    <ul class="nav">
-        <li><a href="https://jgonterman.github.io/islt_7310/index.html">Home</a></li>
-        <li><a href="https://jgonterman.github.io/islt_7310/about.html">About</a></li>
-        <li><a href="https://jgonterman.github.io/islt_7310/learn.html">Learn</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        <li><a href="https://jgonterman.github.io/islt_7310/references.html">Resources</a></li>
-        <li><a href="#contact.html">Contact</a></li>    
-        </li>    
-    </ul>
-</nav>
-<footer>
+</div>            
+
+<div class="box footer">
     Jeremy Gonterman | jkgtct@missouri.edu | ©2024 Jeremy Gonterman
-</footer>
-</body>
+</div>
 
 </html>

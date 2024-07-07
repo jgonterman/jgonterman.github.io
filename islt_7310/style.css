@@ -1,18 +1,11 @@
-#heading {color: magenta}
 body {
     margin: 40px;
-  }
-  
-  .sidebar {
-    grid-area: sidebar;
   }
   
   .content {
     grid-area: content;
     position: relative;
-    a {
-        color: rgb(8, 32, 240)
-    }
+
   }
   
   .header {
@@ -29,24 +22,19 @@ body {
       grid-template-columns: 800px 800px 800px;
       grid-template-areas:
       "header  header  header"
-      "sidebar content content"
+      "content content content"
       "footer  footer  footer";
-      background-color: #fff;
-      color: #444;
+      background-image: url("https://jgonterman.github.io/islt_7310/Homepage.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
   
-  
   .box {
-    background-color: #444;
     color: #fff;
     border-radius: 5px;
-    padding: 50px;
-    font-size: 150%;
-  }
-  
-  .header,
-  .footer {
-    background-color: #999;
+    padding: 105px;
+    font-size: 200%;
   }
   
   .topleft {
