@@ -14,6 +14,7 @@ body {
   
   .sidebar {
     grid-area: sidebar;
+    position: relative;
     img {
       border: 1px solid #ddd;
       border-radius: 4px;
