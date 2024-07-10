@@ -9,6 +9,10 @@
     width: 100%;
     text-align: center;
     float: left;
+    background-image: url("https://jgonterman.github.io/islt_7310/images/footerbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   .footer--icons {
