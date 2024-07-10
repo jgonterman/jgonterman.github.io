@@ -54,10 +54,22 @@ body {
       justify-content: center;
     }
     
-    .footer--icons > img {
-      margin: 5px;
-      width: 0.5%
+    .pic {
+      width: 15px;
+      height: 15px;
     }
+
+    .big {
+      position: absolute;
+      width: 0px;
+ z-index: -1;
+    }
+
+    .pic:hover + .big {
+width: 200px;
+top: -250px;
+    }
+
   }
   
   .wrapper {
