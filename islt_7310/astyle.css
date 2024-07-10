@@ -37,12 +37,18 @@ body {
   .content {
     grid-area: content;
     position: relative;
+    top: -55px;
     font-size: 150%;
+    video {
+      display: block;
+      margin: 0 auto;
+    }
     p {
       text-align: center;
     }
   }
-  
+
+
   .header {
     grid-area: header;
     h1 {
