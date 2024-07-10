@@ -1,0 +1,40 @@
+
+@media print {
+    * {
+        background: transparent;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    .no-print, .no-print * {
+    display: none !important;
+    }
+    .navbar,
+    .sidebar,
+    .footer {
+        display: none !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        page-break-after: avoid;
+        page-break-after: avoid;
+    }
+    .header {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
+        page-break-after: avoid;
+    }
+    .content {
+        margin-top: 0;
+        page-break-before: avoid;
+        text-align: center;
+    }
+    a:after {
+        content: " (" attr(href) ") ";
+        color: blue;
+      }
+body {
+    margin: 25mm 25mm 25mm 25mm;
+}
+}

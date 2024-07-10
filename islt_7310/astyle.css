@@ -1,3 +1,4 @@
+
 @media only screen and (max-width:1024px) {
   /* For mobile phones: */
   .menu, .main, .right {
@@ -45,11 +46,12 @@ body {
   .header {
     grid-area: header;
     h1 {
-      font-size: 300%
+      font:3em "Poppins", cursive;
   }
     h4 {
-      font-size: 225%
+      font:2em "Poppins", cursive;
     }
+    
   }
   
   .footer {
