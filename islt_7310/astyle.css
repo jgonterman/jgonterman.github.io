@@ -16,7 +16,7 @@
   }
 }
 a {
-  color: #2d09fa;
+  color: orange;
 }
 
 body {
@@ -52,12 +52,11 @@ body {
   .header {
     grid-area: header;
     h1 {
-      font:3em "Poppins", cursive;
+      font-size: 300%
   }
     h4 {
-      font:2em "Poppins", cursive;
+      font-size: 225%
     }
-    
   }
   
   .footer {
