@@ -1,67 +1,86 @@
 <!--
-    Title:  Home Page
+    Title:  Contact Page
 
-Use:  Landing spot for the website
+Use:  To allow users to Contact the creator
 
 Author:  Jeremy Gonterman
 
 School/Term:  University of Missouri, Summer 2024
 
-Developed: Jun 15, 2024
+Developed: Jul 16, 2024
 
-Validated:  Jul 7, 2024
+Validated:  Jul 16, 2024
 -->
-
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
                <meta charset="utf-8">
-               <title>Home Page</title>
+               <title>Contact</title>
 
                <link rel="icon" type="image/x-icon" 
                href="https://jgonterman.github.io/islt_7310/images/favicon.JPG">
 
-                <link rel="stylesheet"
-                href="istyle.css">
+               <link rel="stylesheet"
+               href="rstyle.css">
 
-                <link rel="stylesheet"
-                href="nav.css">
+               <link rel="stylesheet"
+               href="nav.css">
 
-                <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
+               
+               <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
+
 </head>
 
 <body>
 <div class="wrapper">
     <div class="box header">
         <header>
-            <element class="header"><h1>Music Theory</h1></element>
+            <element class="header"><h1>Resource & References</h1></element>
         <nav>
             <div class="navbar">
                 <a href="https://jgonterman.github.io/islt_7310/index.html">Home</a>
                 <a href="https://jgonterman.github.io/islt_7310/about.html">About</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Learn
-                        <i class="fa fa-caret-down"></i>
-                    </button>
+            <div class="dropdown">
+                <button class="dropbtn">Learn
+                    <i class="fa fa-caret-down"></i>
+                </button>
                 <div class="dropdown-content">
                     <a href="https://jgonterman.github.io/islt_7310/notes.html">Notes</a>
                     <a href="https://jgonterman.github.io/islt_7310/accidentals.html">Accidentals</a>
                     <a href="https://jgonterman.github.io/islt_7310/scales.html">Scales</a>
                     <a href="https://jgonterman.github.io/islt_7310/chords.html">Chords</a>
-                    </div>
-                </div>    
+                </div>
+            </div>    
                 <a href="https://jgonterman.github.io/islt_7310/references.html">Resources</a>
                 <a href="https://jgonterman.github.io/islt_7310/contact.html">Contact</a>
-        </nav>    
+            </nav> 
         </header>
 </div>
 
+
 <div class="box content">
-    <h4>Welcome!</h4>
-    <p>My name is Jeremy Gonterman, and I am going to teach you the basics of music theory. Many musicians, rather professional or hobbyists, cannot read music. In fact, some of the most famous musicians of all time cannot, such as Prince, Eric Clapton, Elvis Presley, and Michael Jackson. Music theory does not define the quality of the musician, but it does make it easier to communicate with other musicians. If you follow this step-by-step guide, you will learn the foundations of music theory, and be able to confidently read and write music!</p>
-</div>
-</body>
+  <form action="results.html"> method="GET">
+    <div>
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+        <label for="name">Last Name</label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>  
+</body>          
 
 <div class="box footer">
     <div class="container">
