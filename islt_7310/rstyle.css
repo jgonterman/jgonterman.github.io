@@ -7,6 +7,10 @@
 body {
     margin: .5%;
   }
+
+  main {
+    overflow: scroll;
+  }
   
   .content {
     grid-area: content;
@@ -16,6 +20,32 @@ body {
         font-size: 200%
     }
     font-size: 120%;
+  }
+
+
+  caption {
+    text-align: center;
+    font-size: 180%;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+
+  th, td {
+    padding: 1%;
+    border: 2px solid white;
+    text-align: center;
+    width: 10%;
+  }
+
+  tr:nth-child(odd) {
+    background-color: gray;
+  }
+
+  tr:nth-child(even) {
+    background-color: black;
   }
   
   .header {
