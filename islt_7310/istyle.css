@@ -27,6 +27,10 @@ body {
       font-size: 300%
   }
   }
+
+  a {
+    color: rgb(3, 214, 252);
+  }
   
   .footer {
     grid-area: footer;

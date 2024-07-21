@@ -16,7 +16,7 @@
   }
 }
 a {
-  color: orange;
+  color: rgb(3, 214, 252);
 }
 
 body {
@@ -33,6 +33,10 @@ body {
       width: 400
     }
   }
+
+  h6 {
+    text-align: center
+}
   
   .content {
     grid-area: content;

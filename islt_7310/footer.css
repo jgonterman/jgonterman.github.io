@@ -7,6 +7,10 @@
     .i {
       margin: 50px;
     }
+
+    a {
+      color: rgb(3, 214, 252);
+    }
     
     .footer, .container {
       position: fixed;

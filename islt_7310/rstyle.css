@@ -11,6 +11,10 @@ body {
   main {
     overflow: scroll;
   }
+
+  a {
+    color: rgb(3, 214, 252);
+  }
   
   .content {
     grid-area: content;
