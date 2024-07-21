@@ -6,6 +6,10 @@
   .footer {
     display: none
   }
+  .navbar {
+    width: 100%;
+    font-size: 70%
+  }
 }
 body {
     margin: .5%;
