@@ -1,26 +1,15 @@
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:600px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
   }
-  .sidebar {
-    img {
-      display: none;
-    }
-  }
-  .content {
-    p {
-  text-align: left;
-  video {
-    display: block;
-    margin: 0 0 0 auto;
-    width: 50%;
-    }
-  }
-  }
   .footer {
     display: none
+  }
+  .navbar {
+    width: 100%;
+    font-size: 70%
   }
 }
 
