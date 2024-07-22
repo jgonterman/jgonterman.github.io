@@ -12,6 +12,10 @@
   .content {
     p {
   text-align: left;
+  video {
+    display: block;
+    margin: 0 0 0 auto;
+    }
   }
   }
   .footer {
