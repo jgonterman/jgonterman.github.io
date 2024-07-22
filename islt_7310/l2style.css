@@ -4,11 +4,6 @@
   .menu, .main, .right {
     width: 100%;
   }
-  .sidebar {
-    img {
-      display: none;
-    }
-  }
   .content {
     p {
   text-align: left;
