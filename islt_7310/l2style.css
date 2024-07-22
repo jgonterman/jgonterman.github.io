@@ -11,6 +11,11 @@
       width: 100%;
       font-size: 70%
     }
+    .sidebar {
+        img {
+          display: none
+        }
+      }
   }
 
 a {
