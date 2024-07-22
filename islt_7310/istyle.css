@@ -6,9 +6,9 @@
   .footer {
     display: none
   }
-  .navbar {
+  .navbar a {
     width: 100%;
-    font-size: 70%
+    font-size: 50%
   }
 }
 body {
